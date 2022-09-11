@@ -138,6 +138,13 @@ Problem reference: https://www.codechef.com/viewsolution/73561721
   
 **Note**: In map its key value pair because x.first is key, x.second is value.
 
+## **priority_queue**
+Specifically designed such that the first element of the queue is either 
+the greatest or the smallest of all elements in the queue and elements are in 
+**nonincreasing order.**
+
+priority_queue<int> g ;
+  
 **Extra:**
 
 A shop has objects (key - name , value- price). Get the cheapest
