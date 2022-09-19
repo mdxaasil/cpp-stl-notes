@@ -1,4 +1,5 @@
 # cpp-stl-notes
 
 ## Basic/Intermediate STL notes
-Checkout `main.md`
+Checkout 
+[`main.md`](/main.md)
