@@ -61,7 +61,7 @@ s.find(x)==s.end() //not found
 
 s.count(x)==0 //not found
 
-## -**COUNT**
+## **COUNT**
 
 s.count(x); //for set
 
