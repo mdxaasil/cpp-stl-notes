@@ -134,7 +134,6 @@ for (pair<int,int> x: v){
 ## **upper_bound**
 
 returns an iterator pointing to the first element in the range [first, last)
-Problem reference: https://www.codechef.com/viewsolution/73561721
   
 **Note**: In map its key value pair because x.first is key, x.second is value.
 
