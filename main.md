@@ -86,9 +86,11 @@ map<string, double> m;
 
 //insert some values in map
 
-auto it= m.fin d(”aasil”);
+auto it= m.find("aasil");
 
 pair<string, double> p  = *it; // { ”aasil”, m[”aasil”] }
+
+if(mp.find(s1)==mp.end()) // a simple condition to check if the key searched is present by searching till the end of the map
 
 **Note**: if you try to search for a value with a key which is not existing, then it creates the element with the searched key and the value assigned is 0.    
 
