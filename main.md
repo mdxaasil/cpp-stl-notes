@@ -14,6 +14,26 @@ v.begin()   v.end()
 sort(startPointer,endPointer)
 sort(arr, arr + n, greater<int>()); //descending order
 
+Sort a pair based on second element:
+```
+bool sortbysecond(const pair <int, int> &a, const pair <int, int> &b) {
+	return (a.second < b.second);
+}
+
+void solve() {
+
+	vector<pair<int, int>> arr = {{1, 5}, {1, 4}, {1, 3}, {1, 2}, {1, 1}};
+
+	sort(arr.begin(), arr.end(), sortbysecond);
+
+	for (ll i = 0 ; i < 5; i++) {
+		cout << arr[i].first << " :" << arr[i].second << endl;
+	}
+
+}
+
+```
+  
 ## **PAIR**
 
 pair<int,string> p = {4,"hey"};
